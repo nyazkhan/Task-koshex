@@ -1,0 +1,54 @@
+<svg width="79" height="79" viewBox="0 0 79 79" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#FFEFD1" offset="0%"/>
+            <stop stop-color="#FFDABC" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+            <stop stop-color="#FFE1A9" offset="0%"/>
+            <stop stop-color="#FFA660" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="i">
+            <stop stop-color="#FFE4AF" offset="0%"/>
+            <stop stop-color="#FFB47A" offset="100%"/>
+        </linearGradient>
+        <filter x="-8.5%" y="-8.5%" width="117%" height="116.9%" filterUnits="objectBoundingBox" id="a">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.801677317 0 0 0 0 0.469231882 0 0 0 0 0.303009164 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-.9%" y="-.9%" width="101.8%" height="101.8%" filterUnits="objectBoundingBox" id="f">
+            <feGaussianBlur stdDeviation=".5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0.430341638 0 0 0 0 0.143447213 0 0 0 0 0 0 0 0 0.287738507 0" in="shadowInnerInner1"/>
+        </filter>
+        <filter x="-8.5%" y="-8.5%" width="117%" height="116.9%" filterUnits="objectBoundingBox" id="g">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.553071395 0 0 0 0 0.184357132 0 0 0 0 0 0 0 0 0.451246995 0" in="shadowBlurOuter1"/>
+        </filter>
+        <ellipse id="b" cx="36.199" cy="36.375" rx="35.239" ry="35.41"/>
+        <ellipse id="e" cx="36.413" cy="36.375" rx="28.191" ry="28.328"/>
+        <rect id="h" x="18.794" y="18.885" width="35.239" height="35.41" rx="4.4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(3 3)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <ellipse stroke="#FFF4EB" stroke-width="1.1" stroke-linejoin="square" fill="url(#c)" cx="36.199" cy="36.375" rx="34.689" ry="34.86"/>
+        </g>
+        <g transform="translate(3 3)">
+            <use fill="url(#d)" xlink:href="#e"/>
+            <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+        </g>
+        <g transform="translate(3 3)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <rect stroke="#FFEFD1" stroke-width="1.1" stroke-linejoin="square" fill="url(#i)" x="19.344" y="19.435" width="34.139" height="34.31" rx="4.4"/>
+        </g>
+        <g fill="#FFF">
+            <path d="M38.543 41.98c-.068-1.648-1.158-3.263-3.744-3.263-2.35 0-3.643 1.75-3.745 3.263h7.489zm4.22 5.416c-.85 2.86-3.505 5.248-7.624 5.248-4.596 0-8.646-3.263-8.646-8.847 0-5.282 3.949-8.713 8.237-8.713 5.174 0 8.272 3.263 8.272 8.578 0 .64-.068 1.312-.068 1.38H30.952c.102 2.186 1.975 3.767 4.22 3.767 2.112 0 3.269-1.043 3.814-2.523l3.778 1.11zM45.39 32.49l-3.627-4.703h3.275c.352.518 1.679 2.284 2.031 2.802l2.01-2.802h3.131l-3.566 4.626 3.69 4.817h-3.233l-2.136-2.898c-.373.518-1.741 2.38-2.093 2.898h-3.11l3.628-4.74z"/>
+        </g>
+    </g>
+</svg>

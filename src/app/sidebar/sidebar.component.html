@@ -1,0 +1,18 @@
+<div class="sidebar" data-color="purple">
+
+    <div class="logo text-center">
+        <img src="assets/img/logo.svg" width="115" alt="The logo of Koshex" />
+
+    </div>
+    <div class="sidebar-wrapper">
+
+
+        <div *ngFor="let page of list">
+            <div class="list-item">
+                <i class="material-icons">{{ page.icon }}</i>
+                <p>{{ page.name }}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
